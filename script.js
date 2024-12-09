@@ -46,7 +46,7 @@ function Weather() {
                         icon.className = 'fa-solid'
                         icon.classList.add('fa-cloud-sun')
                     }
-                    if (5 < value.main.temp_max && value.main.temp_max < 10) {
+                    if (value.main.temp_max < 10) {
                         icon.className = 'fa-solid'
                         icon.classList.add('fa-snowflake')
                     }
