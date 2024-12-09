@@ -110,7 +110,7 @@ locations.forEach((location) => {
                         degree.innerText = `${Math.floor(value.main.temp_max)}°`
                         WindSpeed.innerText = `${value.wind.speed} m/s`
                         pressure.innerText = `${value.main.pressure} mb`
-                        if (25 < value.main.temp_max && value.main.temp_max < 40) {
+                        if (25 < value.main.temp_max ) {
                             icon.className = 'fa-solid'
                             icon.classList.add('fa-sun')
                             icon.style.color = 'yellow'
